@@ -21,7 +21,9 @@ import {
   ColorMapping,
   Editor,
 } from "./pages";
+
 import "./App.css";
+
 const App = () => {
   const activeMenu = true;
   return (
@@ -41,7 +43,7 @@ const App = () => {
           </div>
 
           {activeMenu ? (
-            <div className="w-72 fixed sidebar dark:bg-secondary-dark-bg bg-white">
+            <div className="sidebar w-72 fixed dark:bg-secondary-dark-bg bg-white">
               <Sidebar />
             </div>
           ) : (
